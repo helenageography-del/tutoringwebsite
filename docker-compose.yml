@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8080:80"
+    volumes:
+      - ./media:/usr/share/nginx/html/media
+    restart: unless-stopped
