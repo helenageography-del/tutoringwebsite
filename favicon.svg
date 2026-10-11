@@ -1,36 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <defs>
-    <clipPath id="globe"><circle cx="35" cy="28" r="12.5"/></clipPath>
-  </defs>
-  <!-- thought bubble: outline layer, then fill layer on top -->
   <g fill="#1f6f54">
-    <circle cx="20" cy="30" r="14"/>
-    <circle cx="30" cy="18" r="15"/>
-    <circle cx="44" cy="19" r="14"/>
-    <circle cx="50" cy="31" r="13"/>
-    <circle cx="40" cy="40" r="13"/>
-    <circle cx="26" cy="40" r="12"/>
-    <circle cx="11" cy="54" r="6"/>
-    <circle cx="4.5" cy="60.5" r="3.5"/>
+    <circle cx="36" cy="28" r="26"/>
+    <circle cx="10" cy="55" r="5"/>
+    <circle cx="3.5" cy="61" r="2.8"/>
   </g>
-  <g fill="#faf9f6">
-    <circle cx="20" cy="30" r="11"/>
-    <circle cx="30" cy="18" r="12"/>
-    <circle cx="44" cy="19" r="11"/>
-    <circle cx="50" cy="31" r="10"/>
-    <circle cx="40" cy="40" r="10"/>
-    <circle cx="26" cy="40" r="9"/>
-    <circle cx="11" cy="54" r="3"/>
-    <circle cx="4.5" cy="60.5" r="1.2"/>
+  <g fill="none" stroke="#faf9f6" stroke-width="3">
+    <circle cx="36" cy="28" r="14.5"/>
+    <ellipse cx="36" cy="28" rx="6.5" ry="14.5"/>
+    <path d="M21.5 28h29"/>
   </g>
-  <!-- little world -->
-  <circle cx="35" cy="28" r="12.5" fill="#7cc3d6"/>
-  <g fill="#1f6f54" clip-path="url(#globe)">
-    <ellipse cx="30" cy="22" rx="6" ry="4.5"/>
-    <ellipse cx="28" cy="28" rx="3" ry="4.5"/>
-    <ellipse cx="41" cy="32" rx="5" ry="5.5"/>
-    <ellipse cx="43" cy="20" rx="2.5" ry="2"/>
-  </g>
-  <circle cx="35" cy="28" r="12.5" fill="none" stroke="#1f6f54" stroke-width="2.5"/>
-  <circle cx="30" cy="22.5" r="1.6" fill="#d98d3a"/>
 </svg>
