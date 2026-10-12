@@ -134,10 +134,17 @@ h2 {
   text-decoration: none;
 }
 
-.site-nav .brand .brand-sep {
-  margin: 0 0.6em;
-  font-weight: 400;
-  opacity: 0.6;
+.site-nav .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.site-nav .brand-logo {
+  width: 1.7em;
+  height: 1.7em;
+  color: var(--color-primary);
+  flex-shrink: 0;
 }
 
 .site-nav ul {
