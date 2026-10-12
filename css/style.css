@@ -137,12 +137,12 @@ h2 {
 .site-nav .brand {
   display: inline-flex;
   align-items: center;
-  gap: 0.5em;
+  gap: 0.3em;
 }
 
 .site-nav .brand-logo {
-  width: 1.7em;
-  height: 1.7em;
+  width: 1em;
+  height: 1em;
   color: var(--color-primary);
   flex-shrink: 0;
 }
