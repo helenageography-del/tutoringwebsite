@@ -371,31 +371,6 @@ h2 {
   display: block;
 }
 
-/* Booking */
-.booking-section {
-  background: var(--color-surface);
-}
-
-#booking-not-configured {
-  max-width: 560px;
-  margin: 0 auto;
-  padding: 32px;
-  background: #fff8ec;
-  border: 1px solid #f0d9a8;
-  border-radius: var(--radius);
-  text-align: center;
-  color: #6b4f19;
-}
-
-#booking-not-configured h3 {
-  margin-top: 0;
-  color: #6b4f19;
-}
-
-#booking-widget {
-  min-height: 600px;
-}
-
 /* Footer */
 footer {
   background: var(--color-primary-dark);
