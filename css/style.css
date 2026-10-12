@@ -91,6 +91,12 @@ h2 {
   box-shadow: 0 6px 16px rgba(217, 141, 58, 0.35);
 }
 
+.btn-small {
+  padding: 8px 18px;
+  font-size: 0.9rem;
+  margin-top: 8px;
+}
+
 /* Nav */
 .site-nav {
   position: sticky;
