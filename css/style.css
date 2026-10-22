@@ -343,9 +343,12 @@ h2 {
 /* Testimonials */
 .testimonial-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  align-items: start;
+  grid-template-columns: repeat(2, 1fr);
   gap: 24px;
+}
+
+.testimonial-wide {
+  grid-column: 1 / -1;
 }
 
 .testimonial {
